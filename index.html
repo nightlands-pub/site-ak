@@ -109,8 +109,9 @@ img { max-width: 100%; display: block; }
   display: flex; align-items: center; gap: 12px;
   margin-bottom: 12px;
 }
-.award-line svg { width: 22px; height: 22px; fill: #c9a84c; flex-shrink: 0; }
-.award-line span { font-size: 17px; color: #ccc; }
+.award-line svg { width: 18px; height: 18px; fill: #e8c840; flex-shrink: 0; }
+.award-line { gap: 4px; }
+.award-line span { font-size: 17px; color: #ccc; margin-left: 8px; }
 
 .slider { position: relative; background: #2a2a2a; overflow: hidden; padding: 40px 0; text-align: center; }
 .slider-track {
@@ -279,10 +280,7 @@ img { max-width: 100%; display: block; }
   <div class="newsletter-content">
     <h2>Newsletter</h2>
     <p class="sub">Subscribe for launches, events, and announcements!</p>
-    <form class="newsletter-form" action="#" method="post">
-      <input type="email" name="email" placeholder="Email address" required>
-      <button type="submit">Join</button>
-    </form>
+    <a href="mailto:authoralisonkimble@gmail.com?subject=Newsletter%20signup" class="buy-btn" style="margin-top: 8px;">Subscribe</a>
   </div>
 </section>
 
